@@ -8,7 +8,7 @@ html {
 
 header {
 background-color: #2c3950;
-padding: 3em 0 0 0;
+padding-top: 3em;
 }
 
 body {
@@ -45,6 +45,7 @@ img {
   width: 125px;
   left: 35px;
   bottom: 57px;
+  transition: all 250ms linear;
 
 }
 
@@ -53,7 +54,7 @@ img {
   width: 125px;
   right: 35px;
   bottom: 57px;
-
+  transition: all 250ms linear;
 }
 
 .brain {
@@ -61,6 +62,8 @@ img {
   position: absolute;
   left: 137px;
   bottom: 111px;
+  transition: all 250ms linear;
+
 
 }
 
@@ -68,4 +71,12 @@ img {
   position: relative;
   width: 320px;
   margin: 0 auto;
+}
+
+.robot:hover .left{
+  left: 15px;
+}
+
+.robot:hover .right{
+  right: 15px;
 }
